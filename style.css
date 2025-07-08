@@ -25,3 +25,26 @@ h1 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
+
+.button {
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.searchInput {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.266);
+    display: table;
+    margin: 0 auto;
+}
